@@ -36,3 +36,35 @@ list.sort()
 print(list)
 
 #Task_8
+list = [10, 20, 30, 40, 50]
+list.reverse()
+print(list)
+
+#Task_9
+list = ['kitob', 'qalam', 'daftar', 'sumka']
+list.clear()
+print(list)
+
+#Task_10
+list = [1, 2, 3]
+list1 = list * 4
+print(list1)
+
+#Task_11
+list = [25, 17, 9, 50, 33]
+min = min(list)
+max = max(list)
+print("Minimum element:", min)
+print("Maximum element:", max)
+
+#Task_12
+list = [100, 200, 300, 400, 500]
+new_list = list.copy()
+print(new_list)
+
+#Task_13
+list = [2, 4, 6, 8, 10]
+sum = sum(list)
+print("Sum of elements:", sum)
+
+#Task_14
