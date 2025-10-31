@@ -68,3 +68,10 @@ sum = sum(list)
 print("Sum of elements:", sum)
 
 #Task_14
+list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+new_list = list[1::2]
+print(new_list)
+
+#Task_15
+list = [[1, 2], [3, 4], [5, 6]]
+print(list[1][1])
