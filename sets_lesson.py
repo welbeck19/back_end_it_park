@@ -38,3 +38,16 @@ y = {30, 40, 50}
 result = x.difference(y)
 print(result)
 
+#Task 8
+x = {10, 20, 30}
+y = {30, 40, 50}
+result = x - y
+print(result)
+
+#Task 9
+a = {"python", "java"}
+b = {"c++", "java", "go"}
+
+unique_set = a | b
+print(unique_set)
+
