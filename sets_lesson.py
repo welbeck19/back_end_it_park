@@ -79,3 +79,7 @@ result_union = a.union(b)
 print(result_union)
 result_difference = a - b
 print(result_difference)
+
+#Task 15
+my_set = {True, False, 1, 0}
+print(my_set)
