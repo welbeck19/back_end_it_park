@@ -51,3 +51,31 @@ b = {"c++", "java", "go"}
 unique_set = a | b
 print(unique_set)
 
+#Task 10
+new_set = set()
+new_list = [100, 200, 300]
+new_set.update(new_list)
+print(new_set)
+
+#Task 11
+my_set = {1, 2, 3}
+my_set.add(3)
+print(my_set)
+
+#Task 12
+my_set = frozenset([1, 2, 3, 4])
+print(my_set)
+
+#Task 13
+a = frozenset([1, 2, 3])
+b = frozenset([2, 3, 4])
+intersection_result = a & b
+print(intersection_result)
+
+#Task 14
+a = frozenset([1, 2, 3])
+b = frozenset([2, 3, 4])
+result_union = a.union(b)
+print(result_union)
+result_difference = a - b
+print(result_difference)
