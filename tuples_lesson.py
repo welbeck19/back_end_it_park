@@ -20,3 +20,12 @@ a = (1, 2)
 b = (3, 4)
 result = a + b
 print(result)
+
+#Task 6
+word = ("Hi",)
+word3x = word * 3
+print(word3x)
+
+#Task 7
+digits = (1, 2, 3, 4, 5, 6)
+print(len(digits))
