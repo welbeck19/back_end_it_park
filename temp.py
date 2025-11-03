@@ -1,3 +1,5 @@
-#Task 4
-numbers = (5, 10, 15, 20)
-print(numbers[-1])
+#Task 5
+a = (1, 2)
+b = (3, 4)
+result = a + b
+print(result)
