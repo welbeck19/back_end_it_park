@@ -1,3 +1,3 @@
-#Task 3
-colors = ("red", "green", "blue")
-print(colors[2])
+#Task 4
+numbers = (5, 10, 15, 20)
+print(numbers[-1])
