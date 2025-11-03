@@ -1,3 +1,4 @@
+#TUPLES
 #Task 1
 animals = ('quyon', 'mushuk', 'it')
 print(animals) 
@@ -62,3 +63,10 @@ print(item)
 #Task 14
 langs = ("C++", "Python", "Java")
 print(langs[1])
+
+#Task 15
+tuple1 = ("a", "b")
+tuple2 = ("c", "d", "e")
+new_tuple = tuple1 + tuple2
+print(new_tuple)
+
