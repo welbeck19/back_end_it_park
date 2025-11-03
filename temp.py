@@ -1,1 +1,3 @@
-#Task 2
+#Task 3
+colors = ("red", "green", "blue")
+print(colors[2])
