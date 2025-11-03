@@ -14,3 +14,27 @@ print(uniques)
 my_set = {5, 10, 15, 20}
 my_set.remove(15)
 print(my_set)
+
+#Task 4
+my_set = {100, 200, 300}
+my_set.discard(400)
+print(my_set)
+
+#Task 5
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+intersection_result = a & b
+print(intersection_result)
+
+#Task 6
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+intersection_result = a.intersection(b)
+print(intersection_result)
+
+#Task 7
+x = {10, 20, 30}
+y = {30, 40, 50}
+result = x.difference(y)
+print(result)
+

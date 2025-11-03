@@ -1,4 +1,5 @@
-#Task 3
-my_set = {5, 10, 15, 20}
-my_set.remove(15)
-print(my_set)
+#Task 7
+x = {10, 20, 30}
+y = {30, 40, 50}
+result = x.difference(y)
+print(result)
