@@ -49,3 +49,8 @@ print(student[2][1])
 data = (1, 2, 3, 2, 4, 2)
 result = data.count(2)
 print(result)
+
+#Task 12
+nums = (5, 3, 7, 3, 9)
+result = nums.index(3)
+print(result)
