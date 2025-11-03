@@ -1,5 +1,4 @@
-my_set = set()
-my_set.add(10)
-my_set.add(20)
-my_set.add(30)
+#Task 3
+my_set = {5, 10, 15, 20}
+my_set.remove(15)
 print(my_set)
