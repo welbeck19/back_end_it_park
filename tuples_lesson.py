@@ -29,3 +29,7 @@ print(word3x)
 #Task 7
 digits = (1, 2, 3, 4, 5, 6)
 print(len(digits))
+
+#Task 8
+fruits = ('apple', 'banana', 'cherry')
+print('banana' in fruits)
