@@ -54,3 +54,11 @@ print(result)
 nums = (5, 3, 7, 3, 9)
 result = nums.index(3)
 print(result)
+
+#Task 13
+item = ("book",)
+print(item)
+
+#Task 14
+langs = ("C++", "Python", "Java")
+print(langs[1])
