@@ -1,15 +1,6 @@
-# Mehmon haqida ma'lumotlar saqlanmoqda
-guest_info = {
-    "name": "Javlon",
-    "room": 305,
-    "nights": 3
-}
-
-# Oxirgi qo‘shilgan kalit-qiymat juftligi dictionary dan o‘chirilmoqda
-removed_item = guest_info.popitem()
-
-# O‘chirilgan juftlik (tuple shaklida) ekranga chiqarilmoqda
-print("Removed:", removed_item)
-
-# Yangilangan dictionary ekranga chiqarilmoqda
-print("Updated:", guest_info)
+#Task 1
+user_age = input("Type your age: ")
+if user_age < 18:
+    print("Underaged")
+else:
+    print("Adult")", guest_info)
