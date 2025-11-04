@@ -3,4 +3,4 @@ user_age = input("Type your age: ")
 if user_age < 18:
     print("Underaged")
 else:
-    print("Adult")", guest_info)
+    print("Adult")
