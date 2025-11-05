@@ -1,8 +1,14 @@
-#Task 9
-items = [1, 2, 2, 3, 4, 4, 4, 5]
+#Task 10
+text = input("Type your text: ").strip()
+letters = list(text)
+print(letters)
 result = []
-for i in range(1, len(items)):
-    if items[i] == items[i-1] and items[i] not in result:
-        result.append(items[i])
-print(result)
-    
+for letter in letters:
+    if letter == " ":
+        continue
+    elif letter == letter.title():
+        result.append(letter)
+    else:
+        continue
+joined_result = "".join(result)
+print(joined_result)
