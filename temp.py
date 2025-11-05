@@ -1,13 +1,7 @@
-#Task 3
-numbers = [7, 12, -3, 8, 0, 15]
-max = float('-inf')
-min = float('inf')
+#Task 4
+numbers = [0, 1, 2, 3, -4, 8, -100, 23, 55, 66]
+positive_odd = []
 for i in numbers:
-    if i > max:
-        max = i
-print(f"Max value = {max}")
-for i in numbers:
-    if i < min:
-        min = i
-print(f"Min value = {min}")
-print(f"Max - Min = {max - min}")
+    if i > 0 and i % 2 != 0:
+        positive_odd.append(i)
+print(positive_odd)
