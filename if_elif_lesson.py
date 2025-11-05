@@ -24,3 +24,23 @@ else:
     print("Yomg'ir yo'q")
 
 
+#Task 4
+fruits = ["olma", "banan", "gilos"]
+if "banan" in fruits:
+    print("Banan bor")
+else:
+    print("Banan yo'q")
+
+#Task 5
+nums = [1, 4, 7, 10]
+if len(nums) >= 5:
+    print("Ro'yhat to'la")
+else:
+    print("Ro'yhat qisqa")
+
+#Task 6
+location = (41.2, 69.1)
+if len(location) == 2:
+    print("Joylashuv aniqlangan")
+else:
+    print("Joylashuv yo'q")
