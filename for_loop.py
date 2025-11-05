@@ -33,3 +33,19 @@ for i in numbers:
         min = i
 print(f"Min value = {min}")
 print(f"Max - Min = {max - min}")
+
+#Task 4
+numbers = [0, 1, 2, 3, -4, 8, -100, 23, 55, 66]
+positive_odd = []
+for i in numbers:
+    if i > 0 and i % 2 != 0:
+        positive_odd.append(i)
+print(positive_odd)
+
+#Task 5
+words = ["python", "apple", "code", "loop"]
+for i in words:
+    letters = list(i)
+    for letter in letters:
+        new_word = letters[0] + letters[-1]
+    print(new_word)
