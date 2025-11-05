@@ -1,14 +1,14 @@
-#Task 15
-user_data = {"registered": True, 
-             "has_license": True,
-             "age": 19
-             }
-if user_data["registered"] != True:
-    print("Not registered")
-    if user_data["has_license"] != True:
-        print("Has no license") 
-        if user_data["age"] != 19:
-            print("Wrong age")
-    print("Ijaraga ruxsat")
-else:
-    print("Ijaraga ruxsat")
+#Task 2
+words = ["apple", "sky", "queue", "book", "cry"]
+for i in words:
+    count = 0
+    word = list(i)
+    for letter in word:
+        vowels = ["a", "e", "o", "u", "i"]
+        if letter in vowels:
+            count += 1
+        else:
+            continue
+    if count >= 2:
+        print(f"Number of vowels in {i}: {count}")
+
