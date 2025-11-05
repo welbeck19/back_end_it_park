@@ -1,8 +1,17 @@
-#Task 1
-number = int(input("Type a number: "))
-result = 0
+#Task 3
+numbers = [7, 12, -3, 8, 0, 15]
+
 i = 0
-while i <= number:
-    result += i
+max = float('-inf')
+min = float('inf')
+
+while i < len(numbers):
+    if numbers[i] > max:
+        max = numbers[i]
+    elif numbers[i] < min:
+        min = numbers[i]
+
     i += 1
-print(result)
+    
+print(max)
+print(min)
