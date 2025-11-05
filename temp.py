@@ -1,8 +1,11 @@
-#Task 13
-user = {"username": "nargiza", "active": True, "role": "student"}
-if user["active"] == True and user["role"] == "teacher":
-    print("Yangi kurs yarata oladi")
-elif user["active"] == True and user["role"] == "student":
-    print("Faqat kursga yozila oladi")
+#Task 14
+speed = 0
+is_connected = True
+if is_connected == False:
+    print("Internet yo'q")
+elif speed < 1:
+    print("Eng past sifat")
+elif speed < 5:
+    print("O'rtacha sifat")
 else:
-    print("Ruxsat yo'q")
+    print("Yuqori sifat")

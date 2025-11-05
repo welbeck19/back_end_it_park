@@ -108,3 +108,15 @@ elif user["active"] == True and user["role"] == "student":
     print("Faqat kursga yozila oladi")
 else:
     print("Ruxsat yo'q")
+
+#Task 14
+speed = 0
+is_connected = True
+if is_connected == False:
+    print("Internet yo'q")
+elif speed < 1:
+    print("Eng past sifat")
+elif speed < 5:
+    print("O'rtacha sifat")
+else:
+    print("Yuqori sifat")
