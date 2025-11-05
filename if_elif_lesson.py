@@ -16,4 +16,11 @@ elif 70 <= score <= 79:
 else:
     print("D")
 
+#Task 3
+is_raining = False
+if is_raining:
+    print("Soyabon oling")
+else:
+    print("Yomg'ir yo'q")
+
 

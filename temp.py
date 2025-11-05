@@ -1,10 +1,6 @@
-#Task 2
-score = 87
-if score >= 90:
-    print("A")
-elif 80 <= score <= 89:
-    print("B")
-elif 70 <= score <= 79:
-    print("C")
+#Task 3
+is_raining = False
+if is_raining:
+    print("Soyabon oling")
 else:
-    print("D")
+    print("Yomg'ir yo'q")
