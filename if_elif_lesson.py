@@ -1,3 +1,10 @@
+#Task 1
+user_age = input("Type your age: ")
+if user_age < 18:
+    print("Underaged")
+else:
+    print("Adult")
+
 #Task 2
 score = 87
 if score >= 90:
@@ -8,3 +15,5 @@ elif 70 <= score <= 79:
     print("C")
 else:
     print("D")
+
+
