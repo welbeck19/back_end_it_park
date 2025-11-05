@@ -1,9 +1,8 @@
-#Task 12
-while True:
-    user_password = input("Please type your password: ")
-    if len(user_password) > 10:
-        print("Strong password!")
-    elif 6 <= len(user_password) <= 10:
-        print("Average password!")
-    elif len(user_password) < 6:
-        print("Too short password!")
+#Task 13
+user = {"username": "nargiza", "active": True, "role": "student"}
+if user["active"] == True and user["role"] == "teacher":
+    print("Yangi kurs yarata oladi")
+elif user["active"] == True and user["role"] == "student":
+    print("Faqat kursga yozila oladi")
+else:
+    print("Ruxsat yo'q")
