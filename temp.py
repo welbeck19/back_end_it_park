@@ -1,6 +1,6 @@
-#Task 7
-active_ids = {1, 2, 3}
-if 2 in active_ids:
-    print("2-ID mavjud")
+#Task 8
+profile = {"name": "Alim", "age": 15}
+if profile["age"] >= 18:
+    print("Voyaga yetgan")
 else:
-    print("2-ID yo'q")
+    print("Voyaga yetmagan")

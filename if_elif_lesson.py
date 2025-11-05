@@ -51,3 +51,10 @@ if 2 in active_ids:
     print("2-ID mavjud")
 else:
     print("2-ID yo'q")
+
+#Task 8
+profile = {"name": "Alim", "age": 15}
+if profile["age"] >= 18:
+    print("Voyaga yetgan")
+else:
+    print("Voyaga yetmagan")
