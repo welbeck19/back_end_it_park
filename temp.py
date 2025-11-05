@@ -1,11 +1,14 @@
-#Task 14
-speed = 0
-is_connected = True
-if is_connected == False:
-    print("Internet yo'q")
-elif speed < 1:
-    print("Eng past sifat")
-elif speed < 5:
-    print("O'rtacha sifat")
+#Task 15
+user_data = {"registered": True, 
+             "has_license": True,
+             "age": 19
+             }
+if user_data["registered"] != True:
+    print("Not registered")
+    if user_data["has_license"] != True:
+        print("Has no license") 
+        if user_data["age"] != 19:
+            print("Wrong age")
+    print("Ijaraga ruxsat")
 else:
-    print("Yuqori sifat")
+    print("Ijaraga ruxsat")
