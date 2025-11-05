@@ -1,10 +1,8 @@
-#Task 10
-temp = 23
-if temp < 0:
-    print("Muzlab qolgan")
-elif 0 <= temp <= 15:
-    print("Salqin")
-elif 16 <= temp <= 30:
-    print("Me'yoriy")
-elif temp > 30:
-    print("Issiq")
+#Task 11
+skills = ["html", "python", "css"]
+if "python" and "sql" in skills:
+    print("Ikkalasi ham bor")
+elif ("python" in skills) ^ ("sql" in skills):
+    print("Bittasi bor")
+else:
+    print("Ikkalasi ham yo'q")
