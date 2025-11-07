@@ -31,3 +31,25 @@ def power(base, exponent=2):
 base = float(input("Type base: "))
 exponent = float(input("Type your exponent: "))
 print(power(base, exponent))
+
+#Task 6
+def show_list(items):
+    for word in items: 
+        print(word)
+
+list_1 = ["I", "am", "your", "father"]
+show_list(list_1)
+
+#Task 7
+def print_line():
+    for i in range(0, 41):
+        print("-")
+
+print_line()
+
+#Task 8
+
+def get_max(a, b):
+    return max(a, b)
+
+print(get_max(3, 7))
