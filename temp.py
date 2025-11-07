@@ -1,2 +1,7 @@
 #Task 1
-def hello()
+def hello():
+    print("ssalomu aleykum!")
+
+hello()
+
+
