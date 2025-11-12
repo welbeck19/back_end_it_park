@@ -1,6 +1,5 @@
-#Task 5
-import math
-angle = float(input("Type the angle: "))
-angle_in_rad = math.radians(angle)
-
-print(math.sin(angle_in_rad))
+import json
+json_string = '{"ism": "Umid", "yosh": 25}'
+python_obj = json.loads(json_string)
+print(python_obj)
+print(python_obj['ism'])
