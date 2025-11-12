@@ -1,7 +1,10 @@
-#Exception handling
-#Task 2
+#Task 3
 try:
-    a = float(input("Type any integer: "))
-    print(a)
+    operators = ["+", "-", "*", "/"]
+    a = input("Type first number: ")
+    b = input("Type second number: ")
+    operator = input("Type an operator: ")
+    if operator not in operators: 
+        print("Wrong operator!")
 except Exception as e:
-    print("You typed a string!!!")
+    print(e)
