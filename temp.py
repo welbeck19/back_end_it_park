@@ -1,10 +1,12 @@
-#Task 4
-def check_number(number):
-    if number < 0:
-        raise ValueError("Manfiy son kiritish mumkin emas!")
-    return number
+#Task 6
+def input_password(password):
+    
+    if not password:
+        raise ValueError("Empty password!")
+    
+password = input("Type your password: ")
 
 try:
-    print(f"Result: {check_number(3)}")
-except ValueError as e:
+    input_password(password)
+except Exception as e:
     print(e)
