@@ -1,11 +1,7 @@
-#Task 15
-def subtract(a, b):
-    """
-    Ikki sonni ayiradi va natijani qaytaradi.
-    """
-    return a - b
-
-doc_string = subtract.__doc__
-print(doc_string)
-result = subtract(10, 3)
-print(f"subtract(10, 3) natijasi: {result}")
+#Exception handling
+#Task 2
+try:
+    a = float(input("Type any integer: "))
+    print(a)
+except Exception as e:
+    print("You typed a string!!!")

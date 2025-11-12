@@ -1,0 +1,19 @@
+#Exception handling
+#Task 1
+try:
+    number1 = int(input("Type the first number: "))
+    number2 = int(input("Type the second number: "))
+    result = number1/number2
+    print(f"Division = {result}")
+except ZeroDivisionError:
+    print("You are dividing by zero!!!")
+except ValueError:
+    print("Please type an integer!!!")
+
+#Task 2
+try:
+    a = float(input("Type any integer: "))
+    print(a)
+except Exception as e:
+    print("You typed a string!!!")
+
