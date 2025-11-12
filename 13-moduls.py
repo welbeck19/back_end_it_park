@@ -9,3 +9,8 @@ for i in range(0, len(numbers)):
 import random
 numbers = [random.randint(0, 100) for i in range(5)]
 print(numbers)
+
+#Task 3
+import datetime
+print(datetime.datetime.now())
+
