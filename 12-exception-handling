@@ -52,7 +52,7 @@ try:
 except Exception as e:
     print(f"Error: {e}")
 
-#Task 6
+#Task 7
 def input_password(password):
     
     if not password:
