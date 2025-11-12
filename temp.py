@@ -1,10 +1,10 @@
-#Task 3
+#Task 4
+def check_number(number):
+    if number < 0:
+        raise ValueError("Manfiy son kiritish mumkin emas!")
+    return number
+
 try:
-    operators = ["+", "-", "*", "/"]
-    a = input("Type first number: ")
-    b = input("Type second number: ")
-    operator = input("Type an operator: ")
-    if operator not in operators: 
-        print("Wrong operator!")
-except Exception as e:
+    print(f"Result: {check_number(3)}")
+except ValueError as e:
     print(e)
