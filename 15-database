@@ -13,3 +13,29 @@ CREATE TABLE IF NOT EXISTS books (
 conn.close()
 
 #Task 2
+import sqlite3
+conn = sqlite3.connect("database/library.db")
+cur = conn.cursor()
+
+books_info = [
+("Python Basics", "John Smith", 2020),
+("SQL for Beginners", "Alice Brown", 2018),
+("Data Science Guide", "Michael Clark", 2021)
+]
+
+cur.executemany("INSERT INTO books (title, author, year) VALUES (?,?,?)", books_info)
+conn.commit()
+conn.close()
+
+#Task 3
+import sqlite3
+conn = sqlite3.connect("database/library.db")
+cur = conn.cursor()
+cur.execute("SELECT * FROM books")
+books_list = cur.fetchall()
+
+for book in books_list:
+    print(book)
+
+conn.close()
+

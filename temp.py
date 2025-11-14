@@ -1,13 +1,11 @@
-#Task 1
+#Task 3
 import sqlite3
 conn = sqlite3.connect("database/library.db")
 cur = conn.cursor()
-cur.execute("""
-CREATE TABLE IF NOT EXISTS books (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            title TEXT NOT NULL,
-            author TEXT NOT NULL,
-            year INTEGER NOT NULL
-            )  
-""")
+cur.execute("SELECT * FROM books")
+books_list = cur.fetchall()
+
+for book in books_list:
+    print(book)
+
 conn.close()
