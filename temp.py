@@ -1,11 +1,9 @@
-#Task 3
+#Task 4
 import sqlite3
 conn = sqlite3.connect("database/library.db")
 cur = conn.cursor()
-cur.execute("SELECT * FROM books")
-books_list = cur.fetchall()
+author_search_value = input("Type author name you are searching for: ")
+cur.execute("SELECT * FROM books WHERE author = ?", (author_search_value,))
 
-for book in books_list:
-    print(book)
-
-conn.close()
+author = cur.fetchone()
+print(author)
