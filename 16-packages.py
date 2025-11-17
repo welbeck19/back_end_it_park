@@ -64,3 +64,16 @@ df = pd.DataFrame(data)
 older_than_20 = df[df["Age"] > 20]
 
 print(older_than_20)
+
+#Task 6
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+
+def salom():
+    return "Assalomu aleykum!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
