@@ -35,3 +35,32 @@ else:
     print(f"Failed to retrieve the page. Statues code: {response.status_code}")
 
 #Task 3
+import numpy as np
+
+arr = np.arange(1, 101)
+even_numbers = arr[arr % 2 == 0]
+
+print(even_numbers)
+print(type(even_numbers))
+
+#Task 4
+import matplotlib.pyplot as plt
+x = list(range(1, 11))
+y = [i ** 2 for i in x]
+plt.plot(x, y)
+plt.show()
+
+#Task 5
+import pandas as pd
+
+data = {
+    "Name": ["Elbek", "Otabek"],
+    "Age": [29, 18],
+    "Score": [90, 75]
+}
+
+df = pd.DataFrame(data)
+
+older_than_20 = df[df["Age"] > 20]
+
+print(older_than_20)
